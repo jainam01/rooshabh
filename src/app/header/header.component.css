@@ -1,0 +1,9 @@
+#bodypart{
+    padding-left: 2%;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+    font-size: small;
+  }
