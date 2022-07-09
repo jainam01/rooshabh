@@ -8,7 +8,7 @@ app.use((req , res , next) => {
 });
 
 app.use((req , res , next) => {
-    res.send('hello');
+    res.send('hello from express');
 });
 
 module.exports = app;
