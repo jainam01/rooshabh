@@ -11,5 +11,9 @@ export class BabyComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  newPost = 'tshirt show here';
 
+  onAdd() {
+     this.newPost = "new post";
+  }
 }

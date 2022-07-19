@@ -8,6 +8,7 @@ import { GirlsComponent } from './header/kids/girls/girls.component';
 import { KidsComponent } from './header/kids/kids.component';
 import { MENComponent } from './header/men/men.component';
 import { WOMENComponent } from './header/women/women.component';
+import { SigninComponent } from './header/signin/signin.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
   { path: 'boy', component: BoysComponent },
   { path: 'girl', component: GirlsComponent },
-  { path: 'baby', component: BabyComponent }
+  { path: 'baby', component: BabyComponent },
+  { path: 'login', component:SigninComponent}
 ];
 
 @NgModule({
