@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MENComponent } from './men.component';
+import { TrunkComponent } from './trunk.component';
 
-describe('MENComponent', () => {
-  let component: MENComponent;
-  let fixture: ComponentFixture<MENComponent>;
+describe('TrunkComponent', () => {
+  let component: TrunkComponent;
+  let fixture: ComponentFixture<TrunkComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MENComponent ]
+      declarations: [ TrunkComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MENComponent);
+    fixture = TestBed.createComponent(TrunkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
