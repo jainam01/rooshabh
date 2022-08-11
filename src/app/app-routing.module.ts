@@ -8,6 +8,11 @@ import { TrunkComponent } from './header/MENFILE/INNERWEAR/trunk/trunk.component
 import { InnerbriefComponent } from './header/MENFILE/INNERWEAR/innerbrief/innerbrief.component';
 import { BriefComponent } from './header/MENFILE/INNERWEAR/brief/brief.component';
 
+// routing of apparel tops
+import { TanktopComponent } from './header/MENFILE/APPAREL TOPS/tanktop/tanktop.component';
+import { TShirtComponent } from './header/MENFILE/APPAREL TOPS/t-shirt/t-shirt.component';
+import { HoodieComponent } from './header/MENFILE/APPAREL TOPS/hoodie/hoodie.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },  
 
@@ -16,6 +21,11 @@ const routes: Routes = [
   { path: 'trunk' , component:TrunkComponent},
   { path: 'innerbrief' , component:InnerbriefComponent},
   { path: 'brief' , component:BriefComponent},
+
+  //routes of appareltops
+  { path: 'tanktop' , component:TanktopComponent},
+  { path: 't-shirt' , component:TShirtComponent},
+  { path: 'hoodie' , component:HoodieComponent}
 ];
 
 @NgModule({

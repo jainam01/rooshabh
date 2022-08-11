@@ -11,6 +11,9 @@ import { BriefComponent } from './header/MENFILE/INNERWEAR/brief/brief.component
 import { TrunkComponent } from './header/MENFILE/INNERWEAR/trunk/trunk.component';
 import { BoxerbriefComponent } from './header/MENFILE/INNERWEAR/boxerbrief/boxerbrief.component';
 import { InnerbriefComponent } from './header/MENFILE/INNERWEAR/innerbrief/innerbrief.component';
+import { TanktopComponent } from './header/MENFILE/APPAREL TOPS/tanktop/tanktop.component';
+import { TShirtComponent } from './header/MENFILE/APPAREL TOPS/t-shirt/t-shirt.component';
+import { HoodieComponent } from './header/MENFILE/APPAREL TOPS/hoodie/hoodie.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { InnerbriefComponent } from './header/MENFILE/INNERWEAR/innerbrief/inner
     BriefComponent,
     TrunkComponent,
     BoxerbriefComponent,
-    InnerbriefComponent
+    InnerbriefComponent,
+    TanktopComponent,
+    TShirtComponent,
+    HoodieComponent,
   ],
   imports: [
     BrowserModule,
