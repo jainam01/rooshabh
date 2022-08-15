@@ -14,6 +14,15 @@ import { InnerbriefComponent } from './header/MENFILE/INNERWEAR/innerbrief/inner
 import { TanktopComponent } from './header/MENFILE/APPAREL TOPS/tanktop/tanktop.component';
 import { TShirtComponent } from './header/MENFILE/APPAREL TOPS/t-shirt/t-shirt.component';
 import { HoodieComponent } from './header/MENFILE/APPAREL TOPS/hoodie/hoodie.component';
+import { BoxershortComponent } from './header/MENFILE/APPAREL BOTTOM/boxershort/boxershort.component';
+import { ShortComponent } from './header/MENFILE/APPAREL BOTTOM/short/short.component';
+import { BermudasComponent } from './header/MENFILE/APPAREL BOTTOM/bermudas/bermudas.component';
+import { JoggerComponent } from './header/MENFILE/APPAREL BOTTOM/jogger/jogger.component';
+import { TrackpantComponent } from './header/MENFILE/APPAREL BOTTOM/trackpant/trackpant.component';
+import { PyjamaComponent } from './header/MENFILE/APPAREL BOTTOM/pyjama/pyjama.component';
+import { SleevelessComponent } from './header/MENFILE/VEST/sleeveless/sleeveless.component';
+import { SleevedComponent } from './header/MENFILE/VEST/sleeved/sleeved.component';
+import { GymComponent } from './header/MENFILE/VEST/gym/gym.component';
 
 
 @NgModule({
@@ -29,6 +38,15 @@ import { HoodieComponent } from './header/MENFILE/APPAREL TOPS/hoodie/hoodie.com
     TanktopComponent,
     TShirtComponent,
     HoodieComponent,
+    BoxershortComponent,
+    ShortComponent,
+    BermudasComponent,
+    JoggerComponent,
+    TrackpantComponent,
+    PyjamaComponent,
+    SleevelessComponent,
+    SleevedComponent,
+    GymComponent,
   ],
   imports: [
     BrowserModule,
