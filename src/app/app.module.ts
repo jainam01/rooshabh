@@ -23,6 +23,29 @@ import { PyjamaComponent } from './header/MENFILE/APPAREL BOTTOM/pyjama/pyjama.c
 import { SleevelessComponent } from './header/MENFILE/VEST/sleeveless/sleeveless.component';
 import { SleevedComponent } from './header/MENFILE/VEST/sleeved/sleeved.component';
 import { GymComponent } from './header/MENFILE/VEST/gym/gym.component';
+import { EverydaybraComponent } from './header/WOMENFILE/BRAS/everydaybra/everydaybra.component';
+import { TShirtbraComponent } from './header/WOMENFILE/BRAS/t-shirtbra/t-shirtbra.component';
+import { ActivebraComponent } from './header/WOMENFILE/BRAS/activebra/activebra.component';
+import { SleepbraComponent } from './header/WOMENFILE/BRAS/sleepbra/sleepbra.component';
+import { PlussizebraComponent } from './header/WOMENFILE/BRAS/plussizebra/plussizebra.component';
+import { HipstersComponent } from './header/WOMENFILE/PANTIES/hipsters/hipsters.component';
+import { BikinisComponent } from './header/WOMENFILE/PANTIES/bikinis/bikinis.component';
+import { ShortiesComponent } from './header/WOMENFILE/PANTIES/shorties/shorties.component';
+import { FullbriefComponent } from './header/WOMENFILE/PANTIES/fullbrief/fullbrief.component';
+import { BoylegComponent } from './header/WOMENFILE/PANTIES/boyleg/boyleg.component';
+import { CroptropsComponent } from './header/WOMENFILE/INNERWARETOPS/croptrops/croptrops.component';
+import { CamisolesComponent } from './header/WOMENFILE/INNERWARETOPS/camisoles/camisoles.component';
+import { KurtaslipsComponent } from './header/WOMENFILE/INNERWARETOPS/kurtaslips/kurtaslips.component';
+import { KurtislipsComponent } from './header/WOMENFILE/INNERWARETOPS/kurtislips/kurtislips.component';
+import { TanktopsgirlComponent } from './header/WOMENFILE/APPARELTOPS/tanktopsgirl/tanktopsgirl.component';
+import { TShirtgirlComponent } from './header/WOMENFILE/APPARELTOPS/t-shirtgirl/t-shirtgirl.component';
+import { HoodiesgirlComponent } from './header/WOMENFILE/APPARELTOPS/hoodiesgirl/hoodiesgirl.component';
+import { SleepdressComponent } from './header/WOMENFILE/APPARELTOPS/sleepdress/sleepdress.component';
+import { ShortsgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/shortsgirl/shortsgirl.component';
+import { CaprisgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/caprisgirl/caprisgirl.component';
+import { TrackpantsgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/trackpantsgirl/trackpantsgirl.component';
+import { LeggingsComponent } from './header/WOMENFILE/APPARELBOTTOMS/leggings/leggings.component';
+import { PantsComponent } from './header/WOMENFILE/APPARELBOTTOMS/pants/pants.component';
 
 
 @NgModule({
@@ -47,6 +70,29 @@ import { GymComponent } from './header/MENFILE/VEST/gym/gym.component';
     SleevelessComponent,
     SleevedComponent,
     GymComponent,
+    EverydaybraComponent,
+    TShirtbraComponent,
+    ActivebraComponent,
+    SleepbraComponent,
+    PlussizebraComponent,
+    HipstersComponent,
+    BikinisComponent,
+    ShortiesComponent,
+    FullbriefComponent,
+    BoylegComponent,
+    CroptropsComponent,
+    CamisolesComponent,
+    KurtaslipsComponent,
+    KurtislipsComponent,
+    TanktopsgirlComponent,
+    TShirtgirlComponent,
+    HoodiesgirlComponent,
+    SleepdressComponent,
+    ShortsgirlComponent,
+    CaprisgirlComponent,
+    TrackpantsgirlComponent,
+    LeggingsComponent,
+    PantsComponent,
   ],
   imports: [
     BrowserModule,
