@@ -56,6 +56,12 @@ import{ PantsComponent } from './header/WOMENFILE/APPARELBOTTOMS/pants/pants.com
 import{ ShortsgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/shortsgirl/shortsgirl.component';
 import{ TrackpantsgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/trackpantsgirl/trackpantsgirl.component';
 
+//routing of appareltops
+import{ HoodiesgirlComponent } from './header/WOMENFILE/APPARELTOPS/hoodiesgirl/hoodiesgirl.component';
+import{ SleepdressComponent } from './header/WOMENFILE/APPARELTOPS/sleepdress/sleepdress.component';
+import{ TShirtgirlComponent } from './header/WOMENFILE/APPARELTOPS/t-shirtgirl/t-shirtgirl.component';
+import{ TanktopsgirlComponent } from './header/WOMENFILE/APPARELTOPS/tanktopsgirl/tanktopsgirl.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },  
 
@@ -105,6 +111,20 @@ const routes: Routes = [
   { path: 'croptrops' , component:CroptropsComponent},
   { path: 'kurtaslips' , component:KurtaslipsComponent},
   { path: 'kurtislips' , component:KurtislipsComponent},
+
+  //routes of apparelbottoms
+  
+  { path: 'caprisgirl' , component:CaprisgirlComponent},
+  { path: 'leggings' , component:LeggingsComponent},
+  { path: 'pants' , component:PantsComponent},
+  { path: 'shortsgirl' , component:ShortsgirlComponent},
+  { path: 'trackpantsgirl' , component:TrackpantsgirlComponent},
+
+  //routes of appareltops
+  { path: 'hoodiesgirls' , component:HoodiesgirlComponent},
+  { path: 'sleepdress' , component:SleepdressComponent},
+  { path: 't-shirtgirl' , component:TShirtgirlComponent},
+  { path: 'tanktopsgirl' , component:TanktopsgirlComponent},
 
 ];
 
