@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './header/home/home.component';
+import { LoginComponent } from './header/login/login.component';
 
 // routing for men parts
 // routing of innerware
@@ -95,8 +96,10 @@ import{ BloomersforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/bloo
 import{ PantiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/pantiesforgirls/pantiesforgirls.component';
 import{ ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/shortiesforgirls/shortiesforgirls.component';
 
+
 const routes: Routes = [
-  { path: '', component: HomeComponent },  
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent},
 
   //routes for men part
   // routes of innerware
@@ -188,7 +191,7 @@ const routes: Routes = [
   //routes of innerwear girls
   { path: 'bloomersforgirls' , component:BloomersforgirlsComponent},
   { path: 'pantiesforgirls' , component:PantiesforgirlsComponent},
-  { path: 'shortiesforgirls' , component:ShortforgirlsComponent},
+  { path: 'shortiesforgirls' , component:ShortiesforgirlsComponent},
 
 ];
 

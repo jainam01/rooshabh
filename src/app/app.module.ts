@@ -65,6 +65,7 @@ import { BoxershortsforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/bo
 import { PantiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/pantiesforgirls/pantiesforgirls.component';
 import { BloomersforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/bloomersforgirls/bloomersforgirls.component';
 import { ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/shortiesforgirls/shortiesforgirls.component';
+import { LoginComponent } from './header/login/login.component';
 
 
 @NgModule({
@@ -131,6 +132,7 @@ import { ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/sho
     PantiesforgirlsComponent,
     BloomersforgirlsComponent,
     ShortiesforgirlsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
