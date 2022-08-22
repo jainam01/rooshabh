@@ -46,6 +46,25 @@ import { CaprisgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/caprisgir
 import { TrackpantsgirlComponent } from './header/WOMENFILE/APPARELBOTTOMS/trackpantsgirl/trackpantsgirl.component';
 import { LeggingsComponent } from './header/WOMENFILE/APPARELBOTTOMS/leggings/leggings.component';
 import { PantsComponent } from './header/WOMENFILE/APPARELBOTTOMS/pants/pants.component';
+import { ShortsboysComponent } from './header/KIDSFILE/APPARELBOTTOMS BOYS/shortsboys/shortsboys.component';
+import { JoggersboysComponent } from './header/KIDSFILE/APPARELBOTTOMS BOYS/joggersboys/joggersboys.component';
+import { TanktopsboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/tanktopsboys/tanktopsboys.component';
+import { TShirtsboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/t-shirtsboys/t-shirtsboys.component';
+import { HoodiesboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/hoodiesboys/hoodiesboys.component';
+import { ShortforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/shortforgirls/shortforgirls.component';
+import { JoggerforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/joggerforgirls/joggerforgirls.component';
+import { CaprisforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/caprisforgirls/caprisforgirls.component';
+import { LeggingsforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/leggingsforgirls/leggingsforgirls.component';
+import { TanktopsforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/tanktopsforgirls/tanktopsforgirls.component';
+import { TShirtforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/t-shirtforgirls/t-shirtforgirls.component';
+import { HoodiesforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/hoodiesforgirls/hoodiesforgirls.component';
+import { BriefforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/briefforboys/briefforboys.component';
+import { TrunksforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/trunksforboys/trunksforboys.component';
+import { VestsforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/vestsforboys/vestsforboys.component';
+import { BoxershortsforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/boxershortsforboys/boxershortsforboys.component';
+import { PantiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/pantiesforgirls/pantiesforgirls.component';
+import { BloomersforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/bloomersforgirls/bloomersforgirls.component';
+import { ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/shortiesforgirls/shortiesforgirls.component';
 
 
 @NgModule({
@@ -93,6 +112,25 @@ import { PantsComponent } from './header/WOMENFILE/APPARELBOTTOMS/pants/pants.co
     TrackpantsgirlComponent,
     LeggingsComponent,
     PantsComponent,
+    ShortsboysComponent,
+    JoggersboysComponent,
+    TanktopsboysComponent,
+    TShirtsboysComponent,
+    HoodiesboysComponent,
+    ShortforgirlsComponent,
+    JoggerforgirlsComponent,
+    CaprisforgirlsComponent,
+    LeggingsforgirlsComponent,
+    TanktopsforgirlsComponent,
+    TShirtforgirlsComponent,
+    HoodiesforgirlsComponent,
+    BriefforboysComponent,
+    TrunksforboysComponent,
+    VestsforboysComponent,
+    BoxershortsforboysComponent,
+    PantiesforgirlsComponent,
+    BloomersforgirlsComponent,
+    ShortiesforgirlsComponent,
   ],
   imports: [
     BrowserModule,

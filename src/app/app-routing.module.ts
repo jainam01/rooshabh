@@ -62,6 +62,39 @@ import{ SleepdressComponent } from './header/WOMENFILE/APPARELTOPS/sleepdress/sl
 import{ TShirtgirlComponent } from './header/WOMENFILE/APPARELTOPS/t-shirtgirl/t-shirtgirl.component';
 import{ TanktopsgirlComponent } from './header/WOMENFILE/APPARELTOPS/tanktopsgirl/tanktopsgirl.component';
 
+//routing for kids part
+
+//routing of apparel bottom boys
+import{ JoggersboysComponent } from './header/KIDSFILE/APPARELBOTTOMS BOYS/joggersboys/joggersboys.component';
+import{ ShortsboysComponent } from './header/KIDSFILE/APPARELBOTTOMS BOYS/shortsboys/shortsboys.component';
+
+//routing of apparel bottom girls
+import{ CaprisforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/caprisforgirls/caprisforgirls.component';
+import{ JoggerforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/joggerforgirls/joggerforgirls.component';
+import{ LeggingsforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/leggingsforgirls/leggingsforgirls.component';
+import{ ShortforgirlsComponent } from './header/KIDSFILE/APPARELBOTTOMS GIRLS/shortforgirls/shortforgirls.component';
+
+//routing of apparel tops boys
+import{ HoodiesboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/hoodiesboys/hoodiesboys.component';
+import{ TShirtsboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/t-shirtsboys/t-shirtsboys.component';
+import{ TanktopsboysComponent } from './header/KIDSFILE/APPARELTOPS BOYS/tanktopsboys/tanktopsboys.component';
+
+//routing of apparel tops girls
+import{ HoodiesforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/hoodiesforgirls/hoodiesforgirls.component';
+import{ TShirtforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/t-shirtforgirls/t-shirtforgirls.component';
+import{ TanktopsforgirlsComponent } from './header/KIDSFILE/APPARELTOPS GIRLS/tanktopsforgirls/tanktopsforgirls.component';
+
+//routing of innerwear boys
+import{ BoxershortsforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/boxershortsforboys/boxershortsforboys.component';
+import{ BriefforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/briefforboys/briefforboys.component';
+import{ TrunksforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/trunksforboys/trunksforboys.component';
+import{ VestsforboysComponent } from './header/KIDSFILE/INNERWEAR BOYS/vestsforboys/vestsforboys.component';
+
+//routinf of innerwear girls
+import{ BloomersforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/bloomersforgirls/bloomersforgirls.component';
+import{ PantiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/pantiesforgirls/pantiesforgirls.component';
+import{ ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/shortiesforgirls/shortiesforgirls.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },  
 
@@ -125,6 +158,37 @@ const routes: Routes = [
   { path: 'sleepdress' , component:SleepdressComponent},
   { path: 't-shirtgirl' , component:TShirtgirlComponent},
   { path: 'tanktopsgirl' , component:TanktopsgirlComponent},
+
+  //routes of apparel bottom boys
+  { path: 'joggersboys' , component:JoggersboysComponent},
+  { path: 'shortsboys' , component:ShortsboysComponent},
+
+  //routes of apparel bottom girls
+  { path: 'caprisforgirls' , component:CaprisforgirlsComponent},
+  { path: 'joggerforgirls' , component:JoggerforgirlsComponent},
+  { path: 'leggingsforgirls' , component:LeggingsforgirlsComponent},
+  { path: 'shortforgirls' , component:ShortforgirlsComponent},
+
+  //routes of apparel tops boys
+  { path: 'hoodiesboys' , component:HoodiesboysComponent},
+  { path: 't-shirtsboys' , component:TShirtsboysComponent},
+  { path: 'tanktopsboys' , component:TanktopsboysComponent},
+
+  //routes of apparel tops girls
+  { path: 'hoodiesforgirls' , component:HoodiesforgirlsComponent},
+  { path: 't-shirtforgirls' , component:TShirtforgirlsComponent},
+  { path: 'tanktopsforgirls' , component:TanktopsforgirlsComponent},
+
+  //routes of innerwear boys
+  { path: 'boxershortsforboys' , component:BoxershortsforboysComponent},
+  { path: 'briefforboys' , component:BriefforboysComponent},
+  { path: 'trunksforboys' , component:TrunksforboysComponent},
+  { path: 'vestsforboys' , component:VestsforboysComponent},
+
+  //routes of innerwear girls
+  { path: 'bloomersforgirls' , component:BloomersforgirlsComponent},
+  { path: 'pantiesforgirls' , component:PantiesforgirlsComponent},
+  { path: 'shortiesforgirls' , component:ShortforgirlsComponent},
 
 ];
 
