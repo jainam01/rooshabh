@@ -143,7 +143,8 @@ import { ShowdetailsComponent } from './header/login/showdetails/showdetails.com
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,7 +22,7 @@ export class ShowdetailsComponent implements OnInit, OnDestroy {
 
   }
   ngOnInit() {
-    this.posts = this.postsService.getPosts();
+    this.postsService.getPosts();
     this.postsSub = this.postsService.getPostUpdateListener().subscribe((posts: post[]) => {
       this.posts= posts;
     });
