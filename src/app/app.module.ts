@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -66,6 +67,8 @@ import { PantiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/pant
 import { BloomersforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/bloomersforgirls/bloomersforgirls.component';
 import { ShortiesforgirlsComponent } from './header/KIDSFILE/INNERWEAR GIRLS/shortiesforgirls/shortiesforgirls.component';
 import { LoginComponent } from './header/login/login.component';
+import { EnterdetailsComponent } from './header/login/enterdetails/enterdetails.component';
+import { ShowdetailsComponent } from './header/login/showdetails/showdetails.component';
 
 
 @NgModule({
@@ -133,11 +136,14 @@ import { LoginComponent } from './header/login/login.component';
     BloomersforgirlsComponent,
     ShortiesforgirlsComponent,
     LoginComponent,
+    EnterdetailsComponent,
+    ShowdetailsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

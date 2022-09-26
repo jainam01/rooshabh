@@ -37,6 +37,6 @@ app.use("/post",(req , res , next) => {
         posts:posts
     });
     next
-});
+}); 
 
 module.exports = app;
