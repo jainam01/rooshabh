@@ -16,7 +16,7 @@ app.post("/post",(req,res,next)=> {
         message:'post suceessfully'
     });
     
-});
+});    
 
 
 app.use("/post",(req , res , next) => {

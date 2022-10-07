@@ -6,6 +6,7 @@ import { post } from "./post.model"
 import { Message } from "@angular/compiler/src/i18n/i18n_ast";
 import { stringify } from "querystring";
 import { isNull } from "@angular/compiler/src/output/output_ast";
+import { response } from "express";
 
 @Injectable({providedIn: 'root'})
 export class postsService{
@@ -18,7 +19,7 @@ export class postsService{
     getPosts(){
         this.http.get<{message: string,posts: post }>('http://localhost:3000/post')
         .subscribe((postData) => {
-            this.posts = postData.posts;
+            this.posts.push(postData.posts);
             this.postUpdated.next([...this.posts]);
         });
     }
@@ -28,8 +29,13 @@ export class postsService{
     }
 
     addPost (title: string, content: string){
-        const post: post ={id: null, title: title , content: content}
-        this.posts.push(post); 
-        this.postUpdated.next([...this.posts]);
+        const post: post ={id: null, title: title , content: content};
+        this.http.post<{message: string}>('http://localhost:3000/post', post)
+         .subscribe(responseData => {
+            console.log(responseData.message);
+            this.posts.push(post); 
+            this.postUpdated.next([...this.posts]);
+         });
+        
     }
 }
